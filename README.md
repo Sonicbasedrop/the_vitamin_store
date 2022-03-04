@@ -97,3 +97,9 @@ that I can easily return to the website if I navigate to a page that doesn't exi
 * As a user, I want to be able to add, edit and delete the quantity of items from my cart.
 * As a user, I want to be able to leave a review.
 
+### **The Skeleton Plane**
+#### Wireframes PNG Format
+* Desktop size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/desktop_wireframes_png)<br>
+* Tablet size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/tablet_wireframes_png)<br>
+* Mobile size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/mobile_wireframes_png)<br>
+

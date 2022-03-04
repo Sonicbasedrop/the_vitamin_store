@@ -44,7 +44,7 @@ The Vitamin Store is a eCommerce site aimed at everyone that wants too or need t
 This site was built for educational purpose and no deliveries will be fulfilled. 
 
 ### User stories
-#### Site owners/Admin/Superuser goals:
+ ### Site owners/Admin/Superuser goals:
 * I want to have a payment system implemented.
 * I want to be able to add products to the store.
 * I want to be able edit products to the store.
@@ -53,7 +53,7 @@ This site was built for educational purpose and no deliveries will be fulfilled.
 * I want to have a contact form where users contact site owner/admin with any questions they may have.
 * I want user how register an account, will get a confirmation email upon registration.
 
-#### As a new/unregistered user:
+ ### As a new/unregistered user:
 * As a user, I want the main purpose of the site to be clear so that I immediately know what the site is 
 intended for upon entering the site.
 * As a user, I want to easily navigate the site so that I can find products quickly with ease.
@@ -78,7 +78,7 @@ that I can easily return to the website if I navigate to a page that doesn't exi
 * As a user, I want to be able to add, edit and delete the quantity of items from my cart.
 * As a user, I want to be able to leave a review.
 
-#### As a registered user:
+ ### As a registered user:
 * As a user, I want to be able login to the site with my personal details.
 * As a user, I want to be able to reset my password in case I forget it.
 * As a user, I want to able update my personal details on my profile page.

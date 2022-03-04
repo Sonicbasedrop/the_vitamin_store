@@ -38,10 +38,17 @@
   ## User Experience Design
 ### **The Strategy Plane**
 
-This website was created for for the sole purpose of completing my Milestone 4 Project for the "Code Institute’s" full stack software developer program.
-The Vitamin Store is a eCommerce site aimed at everyone that wants too or need to maintain they’re health, so we keep it simple. We supply vitamins that are affordable, fun to take, easy to remember to take. The site is designed to be responsive and easy to navigate on a range of devices to make it easily accessible for all users.
+#### Project goals<br>
 
-This site was built for educational purpose and no deliveries will be fulfilled. 
+* Create a website that uses Stripe payments.
+* To make a full-stack site that uses HTML, CSS, JavaScript, Python + Django.
+* Create a website that uses a relational database.
+* To make a full-stack site based around business logic used to control a centrally-owned database.
+
+* This website was created for for the sole purpose of completing my Milestone 4 Project for the "Code Institute’s" full stack software developer program.
+  The Vitamin Store is a eCommerce site aimed at everyone that wants too or need to maintain they’re health, so we keep it simple. We supply vitamins that are affordable, fun to take, easy to remember to take. The site is designed to be responsive and easy to navigate on a range of devices to make it easily accessible for all users.
+
+* This site was built for educational purpose and no deliveries will be fulfilled. 
 
 ### User stories
  ### Site owner Admin Superuser goals:

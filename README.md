@@ -1,6 +1,6 @@
 # Tha Vitamin Store
 
-## Table of Content
+## **Table of Content**
 * [User Experience Design (UX)](#User-Experience-Design)
     * [The Strategy Plane](#The-Strategy-Plane)
         * [Site Goals](#Site-Goals)
@@ -97,6 +97,8 @@ that I can easily return to the website if I navigate to a page that doesn't exi
 * As a user, I want to be able to add, edit and delete the quantity of items from my cart.
 * As a user, I want to be able to leave a review.
 
+<br>
+
 ### **The Skeleton Plane**
 #### Wireframes PNG Format
 * Desktop size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/desktop_wireframes_png)<br>
@@ -115,7 +117,7 @@ that I can easily return to the website if I navigate to a page that doesn't exi
 * Main body text: Montserrat
 
 #### Imagery
-* The background image used on all pages is taken with permission from a [Unsplash](https://unsplash.com/) contributar by the name of Towfiqu barbhuiya [Background-Image](https://unsplash.com/photos/w8p9cQDLX7I) see his compleate Unsplash portfolio [Here](https://unsplash.com/@towfiqu999999).
+* The background image used on all pages is taken with permission from unsplash.com view [here](https://unsplash.com/) contributor by the name of Towfiqu barbhuiya view image [here](https://unsplash.com/photos/w8p9cQDLX7I) see his compplete unsplash portfolio [Here](https://unsplash.com/@towfiqu999999).
 
-* The product image used with permission from a [bulk](https://www.bulk.com/) | [Product-Image](https://www.bulk.com/uk/uc-ii-collagen-capsules.html).
+* The product image used with permission from bulk.com se view [here](https://www.bulk.com/) | view product image [here](https://www.bulk.com/uk/uc-ii-collagen-capsules.html).
 

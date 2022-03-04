@@ -3,7 +3,7 @@
 ## **Table of Content**
 * [User Experience Design (UX)](#User-Experience-Design)
     * [The Strategy Plane](#The-Strategy-Plane)
-        * [Site Goals](#Site-Goals)
+        * [Site owner/Admin/Superuser goals](#Site-owner-Admin-Superuser-goals)
         * [User stories](#User-Stories)
     * [The Scope Plane](#The-Scope-Plane)
     * [The Structure Plane](#The-Structure-Plane)
@@ -44,7 +44,7 @@ The Vitamin Store is a eCommerce site aimed at everyone that wants too or need t
 This site was built for educational purpose and no deliveries will be fulfilled. 
 
 ### User stories
- ### Site owners/Admin/Superuser goals:
+ ### Site owner Admin Superuser goals:
 * I want to have a payment system implemented.
 * I want to be able to add products to the store.
 * I want to be able edit products to the store.

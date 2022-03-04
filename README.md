@@ -121,3 +121,27 @@ that I can easily return to the website if I navigate to a page that doesn't exi
 
 * The product image used with permission from bulk.com se view [here](https://www.bulk.com/) | view product image [here](https://www.bulk.com/uk/uc-ii-collagen-capsules.html).
 
+### **The Scope Plane**
+
+**Features planned:**
+* Responsive design.
+* Website title and information on the site purpose.
+* Navigation Menu (Site Wide).
+* Footer with links (Site Wide).
+* MongoDB databases to store information and user login/profile information.
+* MongoDB databases to store site owner/admin information and user login/profile information.
+* CRUD Functionality.
+* Login functionality.
+* Logout functionality.
+* User profile page.
+* User ability edit profile page.
+* User ability delete profile from site.
+* Payment functionality.
+* Products displayed and searchable to all users.
+* Registered user ability to see there order  history.
+* Admin ability to add, edit, delete products.
+* Admin ability to delete user account.
+* Leave review.
+* Ability to contact site owner/admin.
+* Confirmation email upon registering and upon purchase of product.
+

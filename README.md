@@ -103,3 +103,19 @@ that I can easily return to the website if I navigate to a page that doesn't exi
 * Tablet size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/tablet_wireframes_png)<br>
 * Mobile size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/mobile_wireframes_png)<br>
 
+### **The Surface Plane**
+### Design
+
+#### Planned Colour Scheme
+* The main colours of the site <br> ![Colours](readme_images/colour_scheme/ms4_the_vitamin_store.png)
+ 
+* The main website text is black.
+#### Typography
+* Headings: Bebas Neue.<br>
+* Main body text: Montserrat
+
+#### Imagery
+* The background image used on all pages is taken with permission from a [Unsplash](https://unsplash.com/) contributar by the name of Towfiqu barbhuiya [Background-Image](https://unsplash.com/photos/w8p9cQDLX7I) see his compleate Unsplash portfolio [Here](https://unsplash.com/@towfiqu999999).
+
+* The product image used with permission from a [bulk](https://www.bulk.com/) | [Product-Image](https://www.bulk.com/uk/uc-ii-collagen-capsules.html).
+

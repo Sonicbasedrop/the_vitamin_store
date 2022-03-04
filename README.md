@@ -1,4 +1,4 @@
-# Tha Vitamin Store
+# The Vitamin Store
 
 ## **Table of Content**
 * [User Experience Design (UX)](#User-Experience-Design)

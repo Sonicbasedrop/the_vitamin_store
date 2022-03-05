@@ -19,7 +19,9 @@
     {% block corecss %}
          <!-- Bootstarp CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
@@ -42,6 +44,7 @@
     <title>The Vitamin Store {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
+    <!-- Logo -->
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -49,6 +52,7 @@
                     <h2 class="logo-font text-black my-0"><strong>The Vitamin</strong> Store</h2>
                 </a>
             </div>
+            <!-- Search input field -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="">
                     <div class="input-group w-100">
@@ -63,6 +67,7 @@
                     </div>
                 </form>
             </div>
+           <!-- Account drop down menu -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
@@ -85,6 +90,7 @@
                             {% endif %}
                         </div>
                     </li>
+                    <!-- Shopping Bag -->
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
                             <div class="text-center">
@@ -100,12 +106,28 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+         </div>
+         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0"></div>
         </div>
+        <div class="row bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+               {% include 'includes/mobile-top-header.html' %}
+               {% include 'includes/main-nav.html' %}
+           </nav>
+       </div>
+       <!-- Banner -->
+       <div id="delivery-banner" class="row text-center">
+           <div class="col bg-black text-white">
+               <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
+           </div>            
+       </div>
     </header>
 
     {% if messages %}
-    <div class="message-container"></div>
+      <div class="message-container"></div>
     {% endif %}
 
     {% block page_header %}
@@ -113,14 +135,9 @@
 
     {% block content %}
     {% endblock %}
-
+    
     {% block postloadjs %}
     {% endblock %}
 
-
-
-
-
-
-</body>
+ </body>
 </html>

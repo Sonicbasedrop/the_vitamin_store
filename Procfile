@@ -1,0 +1,1 @@
+web: gunicorn the_vitamin_store.wsgi:application

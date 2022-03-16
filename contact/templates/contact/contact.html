@@ -22,11 +22,11 @@
     </div>
     <div class="row">
         <div class="col-12 col-md-6">
-            <form method="POST" action="{% url 'contact' %}" class="form mb-2" enctype="multipart/form-data">
+            <form method="POST" action="{% url 'contact' %}" class="form mb-2">
                 {% csrf_token %}
                 {{ form|crispy }}
                 <div class="text-right">
-                    <a class="btn btn-outline-black rounded-0" href="{% url 'contact' %}">Cancel</a>
+                    <a class="btn btn-outline-black rounded-0" href="{% url 'home' %}">Cancel</a>
                     <button class="btn btn-black rounded-0" type="submit">Submit Query</button>
                 </div>
             </form>

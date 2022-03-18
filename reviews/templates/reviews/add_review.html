@@ -20,7 +20,7 @@
             <hr>
         </div>
     </div>
-
+    <div class="conatiner">
     <div class="row">
         <div class="col-12 col-md-6">
             <form method="POST" action="{% url 'add_review' product.id %}" class="form mb-2"
@@ -46,7 +46,14 @@
                     </a>
                 {% endif %}
            </div>
+           <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 ml-5 mt-4">
+            <span class="icon">
+                <i class="fas fa-chevron-left"></i>
+            </span>
+            <span class="text-uppercase">Keep Shopping</span>
+        </a>
         </div>
+    </div>
     </div>
 </div>
 {% endblock %}

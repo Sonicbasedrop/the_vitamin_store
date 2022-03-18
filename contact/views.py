@@ -33,7 +33,7 @@ def contact(request):
             cust_email,
             [settings.DEFAULT_FROM_EMAIL]
         )
-        messages.success(request, 'Your message sent to us!')
+        messages.success(request, 'Your message was sent to us!')
 
     form = ContactForm
 

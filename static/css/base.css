@@ -385,8 +385,18 @@ a:hover {
 text-decoration: underline;
 }
 
+
+.card-fixed {
+    max-height: 375px !important;
+}
 .card img {
-    height: 350px !important;
+    height: 375px !important;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.card-img-top-rev {
+    height: 375px !important;
     -o-object-fit: contain;
     object-fit: contain;
 }

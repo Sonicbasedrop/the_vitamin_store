@@ -387,16 +387,16 @@ text-decoration: underline;
 
 
 .card-fixed {
-    max-height: 375px !important;
+    max-height: 350px !important;
 }
 .card img {
-    height: 375px !important;
+    height: 350px !important;
     -o-object-fit: contain;
     object-fit: contain;
 }
 
 .card-img-top-rev {
-    height: 375px !important;
+    height: 350px !important;
     -o-object-fit: contain;
     object-fit: contain;
 }

@@ -353,7 +353,7 @@
     "model": "products.product",
     "fields": {
       "sku": "imu8407440125",
-      "name": "Iron (Ferrous Bisglycinate) Capsules (K-Pure) 20mg",
+      "name": "Iron Capsules 20mg",
       "description": "Premium iron supplement using highly bioavailable ferrous bisglycinate from K-Pure, providing 5mg of iron in a single capsule serving. Iron is an important mineral in any healthy diet, contributing to normal transport of oxygen through the blood, as well as helping to reduce tiredness and fatigue. This supplement uses ferrous bisglycinate, a highly bioavailable form of Iron often referred to as a 'gentle Iron' to give you the best possible nutrition in a single capsule.",
       "price": 13.99,
       "category": 7,

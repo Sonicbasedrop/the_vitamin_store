@@ -384,3 +384,9 @@ color: green;
 a:hover {
 text-decoration: underline;
 }
+
+.card img {
+    height: 350px !important;
+    -o-object-fit: contain;
+    object-fit: contain;
+}

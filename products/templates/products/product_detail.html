@@ -88,10 +88,12 @@
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
                                 <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                                <a href="{% url 'add_review' product.id %}" class="btn btn-outline-black rounded-0 text-uppercase mt-5"><i
+                                    class="fas fa-plus"></i> Leave a Review</a>
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
-                        <a href="{% url 'add_review' product.id %}" class="btn btn-outline-black rounded-0 text-uppercase mt-5">Leave a Review</a>
+                        
                     </form>
                 </div>
             </div>

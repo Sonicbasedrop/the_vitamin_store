@@ -95,6 +95,10 @@
                         </div>
                         
                     </form>
+                    {% for item in review %}
+                    {{ item.rating}}
+                    {% endfor %}
+
                 </div>
             </div>
         </div>
@@ -104,3 +108,4 @@
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
+

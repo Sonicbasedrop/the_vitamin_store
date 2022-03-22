@@ -128,7 +128,7 @@
                                                         </div>
                                                         <div class="modal-footer">
                                                             <a href="{% url 'product_detail' product.id %}" class="btn btn-dark"> Cancel</a>
-                                                            <form action="{% url 'delete_review' review_id %}" method="POST">
+                                                            <form action="#" method="POST">
                                                                 {% csrf_token %}
                                                                 <button type="submit" class="btn btn-danger">Delete</button>
                                                             </form>

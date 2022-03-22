@@ -401,3 +401,10 @@ text-decoration: underline;
     object-fit: contain;
 }
 
+.review-container {
+    margin-top: 150px;
+    padding-top: 100px;
+    width: 80%;
+    width: 60%;
+    padding-bottom: 50px;
+}

@@ -108,7 +108,7 @@
                                     <div class="col-12">
                                         {% for item in review %}
                                         <div class="shadow-sm p-1 mb-3 bg-gray rounded">
-                                            <p class="font-weight-bold mb-2 mt-3">Posted by: {{ user }} on {{ review.date }}</p>
+                                            <p class="font-weight-bold mb-2 mt-3">Posted by: {{ user }}</p>
                                             <p class="text-black mb-2 mt-3">Rating: {{ item.rating}}</p>
                                             <p class="text-black mb-2 mt-3">Review Text: {{ item.review_text}}</p>
                                             {% if review.user == request.user or request.user.is_superuser %}

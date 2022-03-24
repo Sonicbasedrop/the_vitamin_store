@@ -1,5 +1,9 @@
 # The Vitamin Store
 
+The Vitamin Store is an online e-commerce vitamin store. This site was developed for my milestone 4 project as part of the Code Institute - Full Stack Diploma in Software Development Course.
+<br>
+![Mockup](readme_images/mockup/mockup.png)
+
 ## **Table of Content**
 * [User Experience Design (UX)](#User-Experience-Design)
     * [The Strategy Plane](#The-Strategy-Plane)

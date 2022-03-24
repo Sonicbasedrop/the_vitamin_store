@@ -34,7 +34,7 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 * [Deployment](#Deployment)
     * [Project Creation](#Project-Creation)
     * [GitHub Pages](#Deployment-To-Heroku)
-    * [The Vitamin Store](#The Vitamin Store)
+    * [The Vitamin Store](#The-Vitamin-Store)
     * [Fork Project](#Fork-Project)
 * [Credits](#Credits)
   * [Code](#Code)
@@ -87,25 +87,87 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 
 ### **The Scope Plane**
 
-**Features Implemented:**
-* Responsive design.
-* Website title and information on the site purpose.
-* Navigation Menu (Site Wide).
-* MongoDB databases to store information and user login/profile information.
-* MongoDB databases to store site owner/admin information and user login/profile information.
-* CRUD Functionality.
-* Login functionality.
-* Logout functionality.
-* User profile page.
-* User ability edit profile page.
-* User ability delete profile from site.
-* Payment functionality.
-* Products displayed and searchable to all users.
-* Registered user ability to see there order  history.
-* Admin ability to add, edit, delete products.
-* Admin ability to delete user account.
-* User ability to leave a review.
-* Ability to contact site owner/admin.
-* Confirmation email upon registering and upon purchase of product.<br>
+### **Features Implemented:**
+##### **Create Profile**
+- Users are able to:
+  - Create a profile to save their orders and personal information
+  - Confirm their details are correct via email verification
+  - Store details for faster checkout
+
+##### **Log in to Profile**
+- Users are able to:
+  - Log in to profile to see their orders and personal information
+  - Edit personal information if required
+
+##### **Products Page**
+- Users are able to:
+  - See the products for sale on the site
+  - Sort products by A-Z, Name, Category, Price, Rating.
+  - See all products
+  - Price of product
+  - See rating of product
+
+##### **Product Details Page**
+- Users are able to:
+  - Click the products to find out more information including
+  - Name,  price, SKU, category, Rating
+  - Add products to bag to buy
+  - See reviews of products and also review the products if logged in
+
+- Super users are able to:
+  - Add, edit and delete products
+
+##### **Products Management**
+If the user is a super user they can:
+  - Add a product and image of product
+  - Edit a product
+  - Delete a Product
+
+##### **Bag**
+- Users are able to:
+  - Adjust number of products in bag if they require
+  - Find out delivery costs
+  - Find out how much more they need to spend to get free delivery
+  - Clearly see the total of their items by quantity and grand total
+
+##### **Checkout**
+- Users can:
+  - Save time as personal details pulled from profile page if user is logged in
+  - Save their delivery information to their profile
+  - Clearly see how much they will be charged for their items and delivery
+
+- Logged in users can:
+  - Add a Review
+ ##### **Navigation**
+
+**Header**
+
+- All users can:
+  - Navigate to home, products, bag pages, Contact page, Faq page
+
+- Users logged in can access:
+  - Profile pages, review page
+
+- Users not logged in can:
+  - Access log in and register pages
+
+### **Error Pages**
+
+#### *404.html*
+
+ - 404 page created to redirect users back to the main site in case of an error
+
+#### *403.html*
+
+ - 403 page created to redirect users back to the main site in case they try to access a page they are not authorised to
+
+#### *500.html*
+
+ - 500 error page created to redirect users to the main site after a server error
 <br>
-![Importance and Difficulty](readme_images/user_stories/dificulty_importance.png)
+![Importance and Difficulty](readme_images/user_stories/dificulty_importance.png)<br>
+
+[Back to Table of Content](#table-of-content)
+
+### **Database Design**<br>
+![](readme_images/database_schema/database_schema.png)

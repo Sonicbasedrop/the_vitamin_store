@@ -2,14 +2,15 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from products.models import Product
-from profiles.models import UserProfile
 from .models import Review
 from .forms import Add_ReviewForm
 
 
 @login_required
 def add_review(request, product_id):
-    ''' View to add reviews '''
+    """
+     View to add reviews
+    """
     product = get_object_or_404(Product, pk=product_id)
     if request.method == 'POST':
         form = Add_ReviewForm(request.POST)
@@ -35,13 +36,15 @@ def add_review(request, product_id):
 
 @login_required()
 def delete_review(request, product_id, review_id):
-    '''Allow admin to delete user reviews'''
+    """
+    Allow admin to delete user reviews
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry only store owners can do that!')
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
-    review = Review.objects.get(product=product, pk=review_id)
+    review = Review(product=product, pk=review_id)
     review.delete()
     messages.success(request, 'Review deleted!')
     return redirect(reverse('product_detail', args=[product.id]))

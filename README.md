@@ -87,83 +87,82 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 
 ### **The Scope Plane**
 
-### **Features Implemented:**
+### **Features Implemented:**<br>
 ##### **Create Profile**
-- Users are able to:
-  - Create a profile to save their orders and personal information
-  - Confirm their details are correct via email verification
-  - Store details for faster checkout
+* Users are able to:
+  * Create a profile to save their orders and personal information
+  * Confirm their details are correct via email verification
+  * Store details for faster checkout
 
 ##### **Log in to Profile**
-- Users are able to:
-  - Log in to profile to see their orders and personal information
-  - Edit personal information if required
+* Users are able to:
+  * Log in to profile to see their orders and personal information
+  * Edit personal information if required
 
 ##### **Products Page**
-- Users are able to:
-  - See the products for sale on the site
-  - Sort products by A-Z, Name, Category, Price, Rating.
-  - See all products
-  - Price of product
-  - See rating of product
+* Users are able to:
+  * Products displayed and searchable to all users.
+  * Sort products by A-Z, Name, Category, Price, Rating.
+  * Price of product
+  * See rating of product
 
 ##### **Product Details Page**
-- Users are able to:
-  - Click the products to find out more information including
-  - Name,  price, SKU, category, Rating
-  - Add products to bag to buy
-  - See reviews of products and also review the products if logged in
+* Users are able to:
+  * Click the products to find out more information including
+  * Name,  price, SKU, category, Rating
+  * Add products to bag to buy
+  * See reviews of products and also review the products if logged in
 
-- Super users are able to:
-  - Add, edit and delete products
+* Super users are able to:
+  * Add, edit and delete products
 
 ##### **Products Management**
-If the user is a super user they can:
-  - Add a product and image of product
-  - Edit a product
-  - Delete a Product
+* If the user is a super user they can:
+  * Add a product and image of product
+  * Edit a product
+  * Delete a Product
 
 ##### **Bag**
-- Users are able to:
-  - Adjust number of products in bag if they require
-  - Find out delivery costs
-  - Find out how much more they need to spend to get free delivery
-  - Clearly see the total of their items by quantity and grand total
+* Users are able to:
+  * Adjust number of products in bag if they require
+  * Find out delivery costs
+  * Find out how much more they need to spend to get free delivery
+  * Clearly see the total of their items by quantity and grand total
 
 ##### **Checkout**
-- Users can:
-  - Save time as personal details pulled from profile page if user is logged in
-  - Save their delivery information to their profile
-  - Clearly see how much they will be charged for their items and delivery
+* Users can:
+  * Save time as personal details pulled from profile page if user is logged in
+  * Save their delivery information to their profile
+  * Clearly see how much they will be charged for their items and delivery
 
-- Logged in users can:
-  - Add a Review
+* Logged in users can:
+  * Add a Review
  ##### **Navigation**
 
 **Header**
 
-- All users can:
-  - Navigate to home, products, bag pages, Contact page, Faq page
+* All users can:
+  * Navigate to home, products, bag pages, Contact page, Faq page
 
-- Users logged in can access:
-  - Profile pages, review page
+* Users logged in can access:
+  * Profile pages, review page
 
-- Users not logged in can:
-  - Access log in and register pages
+* Users not logged in can:
+  * Access log in and register pages
 
 ### **Error Pages**
 
 #### *404.html*
 
- - 404 page created to redirect users back to the main site in case of an error
+ * 404 page created to redirect users back to the main site in case of an error
 
 #### *403.html*
 
- - 403 page created to redirect users back to the main site in case they try to access a page they are not authorised to
+ * 403 page created to redirect users back to the main site in case they try to access a page they are not authorised to
 
 #### *500.html*
 
- - 500 error page created to redirect users to the main site after a server error
+ * 500 error page created to redirect users to the main site after a server error
 <br>
 ![Importance and Difficulty](readme_images/user_stories/dificulty_importance.png)<br>
 

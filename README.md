@@ -1,6 +1,6 @@
 # The Vitamin Store
 
-The Vitamin Store is an online e-commerce vitamin store. This site was developed for my milestone 4 project as part of the Code Institute - Full Stack Diploma in Software Development Course.
+The Vitamin Store is an online e-commerce vitamin store. This site was developed for my milestone 4 project as part of the Code Institutes - Full Stack Software Development Course.<br>
 <br>
 ![Mockup](readme_images/mockup/mockup.png)
 
@@ -213,18 +213,23 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
     * Heroku was used to deploy the live website.
 * [AWS](https://aws.amazon.com/)
     * A cloud application to hold media files.
-* [TinyJPG](https://tinyjpg.com/)
-	* TinyJPG/TinyPNG is used to reduce the file sizes of images before being deployed to reduce storage and bandwith.
-* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
-	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
-* [balsamiq Wireframes](https://balsamiq.com/wireframes/)
-	* This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
 * [Font Awesome](https://fontawesome.com/)
     * All the Icons displayed throughout the website are Font Awesome icons.
 * [Favicon](https://favicon.io/)
     * Favicon.io was used to make the site favicon. 
 * [Techsini](http://techsini.com/multi-mockup/index.php)
     * Multi Device Website Mockup Generator was used to create the Mock up image in this README. 
+* [Privacy Policy](https://www.privacypolicygenerator.info/)
+    * used to generate a privacy policy.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+    * Used for performance review.
+
+   --- 
+### Tools<br>
+* [TinyJPG](https://tinyjpg.com/)
+	* TinyJPG/TinyPNG is used to reduce the file sizes of images before being deployed to reduce storage and bandwith.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
 * [tinypng](https://tinypng.com/)
   * Used to reduce the size of the images for better user experience.
 * [JSHint](https://jshint.com/)
@@ -236,7 +241,21 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 * [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
     * CSS3 Validation Service.
 * [Wave](https://wave.webaim.org/)
-    * Web Accessibility Evaluation Tool.
-   --- 
+    * Web Accessibility Evaluation Tool.  
+* [balsamiq Wireframes](https://balsamiq.com/wireframes/)
+	* This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+---
+### General Rscources Used<br>
+* [DigitalOcean](https://www.digitalocean.com/)
+* [Youtube](https://www.youtube.com/)
+* [W3Schools](https://www.w3schools.com/)
+* [Stack Overflow](https://stackoverflow.com/)
+* [Google](https://www.google.com/)
+* Code Insitutes Course Material
+---
+### Testing<br>
+Due to the scope and size of the testing section, a separate testing file was created. You can find thebtesting file [here](https://github.com/Sonicbasedrop/the_vitamin_store/blob/main/TESTING.md)
+
 
 [Back to Table of Content](#table-of-content)
+

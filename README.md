@@ -152,7 +152,7 @@ that I can easily return to the website if I navigate to a page that doesn't exi
 * Registered user ability to see there order  history.
 * Admin ability to add, edit, delete products.
 * Admin ability to delete user account.
-* Leave review.
+* User ability to leave a review.
 * Ability to contact site owner/admin.
 * Confirmation email upon registering and upon purchase of product.
 

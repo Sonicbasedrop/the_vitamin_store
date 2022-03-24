@@ -176,3 +176,86 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
   I have added additional wireframes that shows my the changes (index page shows the overall changes -
   and the faq page wireframe is added to show the consolidation of about/privacy page)
 
+## Technologies
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+	* This project uses HTML as the main language used to complete the structure of the Website.
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+	* This project uses custom written CSS to style the Website.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    * JavaScript is used along with [emailjs](https://www.emailjs.com/) for the contact form. This sends an email to the site owner
+    on form submit.
+    * [jQuery](https://jquery.com/) is used for the following: 
+        * Mobile side nav
+        * Displaying Success/Fail message verifying contact form status.
+        * Collapsible Materialize elements.
+        * Materialize modal.
+        * Datepicker functionality on forms.
+        * To populate downdrops on select elements.
+* [Python](https://www.python.org/)
+* This projects core was created using Python, the back-end logic and the means to run/view the Website.
+* Python Modules used (These can be found in the requirements.txt project file):
+    * asgiref==3.5.0
+    *  backports.zoneinfo==0.2.1
+    * boto3==1.21.18
+    * botocore==1.24.18
+    * chardet==4.0.0
+    * dj-database-url==0.5.0
+    * Django==3.2
+    * django-allauth==0.41.0
+    * django-countries==7.3.2
+    * django-crispy-forms==1.14.0
+    * django-storages==1.12.3
+    * gunicorn==20.1.0
+    * jmespath==0.10.0
+    * oauthlib==3.2.0
+    * Pillow==9.0.1
+    * psycopg2==2.9.3
+    * psycopg2-binary==2.9.3
+    * python-dateutil==2.1
+    * python3-openid==3.2.0
+    * pytz==2021.3
+    * requests-oauthlib==1.3.1
+    * s3transfer==0.5.2
+    * sqlparse==0.4.2
+    * stripe==2.67.0 
+
+* [Bootstrap](https://getbootstrap.com/)
+    * The Materialize framework was used through the website for layout and responsiveness.
+* [Google Fonts](https://fonts.google.com/)
+	* Google fonts are used throughout the project to import the *Inter* and *Bevan* fonts.
+ * [Git](https://git-scm.com/)
+	* Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
+* [GitHub](https://github.com/)
+	* GithHub is the hosting site used to store the source code for the Website.
+* [MongoDB](https://www.mongodb.com/1)
+    * MongoDB was used to create the document based databases(collections) used as data storage for this project.
+* [Heroku](https://dashboard.heroku.com/apps)
+    * Heroku was used to deploy the live website.
+* [AWS](https://aws.amazon.com/)
+    * A cloud application to hold media files.
+* [TinyJPG](https://tinyjpg.com/)
+	* TinyJPG/TinyPNG is used to reduce the file sizes of images before being deployed to reduce storage and bandwith.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+* [balsamiq Wireframes](https://balsamiq.com/wireframes/)
+	* This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+* [Font Awesome](https://fontawesome.com/)
+    * All the Icons displayed throughout the website are Font Awesome icons.
+* [Favicon](https://favicon.io/)
+    * Favicon.io was used to make the site favicon 
+* [Techsini](http://techsini.com/multi-mockup/index.php)
+    * Multi Device Website Mockup Generator was used to create the Mock up image in this README 
+* [tinypng](https://tinypng.com/)
+  * Used to reduce the size of the images for better user experience.
+* [JSHint](https://jshint.com/)
+    * Used to detect errors in the JavaScript files
+* [PEP8 Online](http://pep8online.com/)
+    * Used to check PEP8 compliance in the code
+* [W3C Markup Validator](https://validator.w3.org/)
+    * Markup validation service for HTML5
+* [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+    * CSS3 Validation Service
+* [Wave](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+    * Accessibility validation service.
+
+[Back to Table of Content](#table-of-content)

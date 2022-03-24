@@ -125,8 +125,8 @@ that I can easily return to the website if I navigate to a page that doesn't exi
  
 * The main website text is black.
 #### Typography
-* Headings: Bebas Neue.<br>
-* Main body text: Montserrat
+* Headings: Lato<br>
+* Main body text : Lato
 
 #### Imagery
 * The background image used on all pages is taken with permission from unsplash.com view [here](https://unsplash.com/) contributor by the name of Towfiqu barbhuiya view image [here](https://unsplash.com/photos/w8p9cQDLX7I) see his compplete unsplash portfolio [Here](https://unsplash.com/@towfiqu999999).
@@ -139,7 +139,6 @@ that I can easily return to the website if I navigate to a page that doesn't exi
 * Responsive design.
 * Website title and information on the site purpose.
 * Navigation Menu (Site Wide).
-* Footer with links (Site Wide).
 * MongoDB databases to store information and user login/profile information.
 * MongoDB databases to store site owner/admin information and user login/profile information.
 * CRUD Functionality.

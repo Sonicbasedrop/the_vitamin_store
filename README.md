@@ -135,7 +135,7 @@ that I can easily return to the website if I navigate to a page that doesn't exi
 
 ### **The Scope Plane**
 
-**Features planned:**
+**Features Implemented:**
 * Responsive design.
 * Website title and information on the site purpose.
 * Navigation Menu (Site Wide).
@@ -154,5 +154,6 @@ that I can easily return to the website if I navigate to a page that doesn't exi
 * Admin ability to delete user account.
 * User ability to leave a review.
 * Ability to contact site owner/admin.
-* Confirmation email upon registering and upon purchase of product.
-
+* Confirmation email upon registering and upon purchase of product.<br>
+<br>
+![Importance and Difficulty](readme_images/user_stories/dificulty_importance.png)

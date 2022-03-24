@@ -4,6 +4,9 @@ The Vitamin Store is an online e-commerce vitamin store. This site was developed
 <br>
 ![Mockup](readme_images/mockup/mockup.png)
 
+Link to [live site](https://the-vitamin-store.herokuapp.com/)
+
+
 ## **Table of Content**
 * [User Experience Design (UX)](#User-Experience-Design)
     * [The Strategy Plane](#The-Strategy-Plane)
@@ -55,6 +58,7 @@ The Vitamin Store is an online e-commerce vitamin store. This site was developed
 
 * This site was built for educational purpose and no deliveries will be fulfilled. 
 
+* ### Site owner/Admin/Superuser goals
 ### User stories
 ![User stories 1](readme_images/user_stories/user-stories-1.png)<br>
 ![User stories 2](readme_images/user_stories/user-stories-2.png)<br>

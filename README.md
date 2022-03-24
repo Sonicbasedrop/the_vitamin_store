@@ -170,3 +170,9 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 
 ### **Database Design**<br>
 ![](readme_images/database_schema/database_schema.png)
+
+### **Differences to Design**<br>
+* Footer was removed, and links that was planned for footer was moved up to the main navigation menu.
+  I have added additional wireframes that shows my the changes (index page shows the overall changes -
+  and the faq page wireframe is added to show the consolidation of about/privacy page)
+

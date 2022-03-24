@@ -10,10 +10,8 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 ## **Table of Content**
 * [User Experience Design (UX)](#User-Experience-Design)
     * [The Strategy Plane](#The-Strategy-Plane)
-        * [Site owner/Admin/Superuser goals](#Site-owner-Admin-Superuser-goals)
         * [User stories](#User-Stories)
     * [The Scope Plane](#The-Scope-Plane)
-    * [The Structure Plane](#The-Structure-Plane)
     * [The Skeleton Plane](#The-Skeleton-Plane)
         * [Wireframes](#Wireframes)
         * [Database Design](#Database-Design)
@@ -58,7 +56,6 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 
 * This site was built for educational purpose and no deliveries will be fulfilled. 
 
-* ### Site owner/Admin/Superuser goals
 ### User stories
 ![User stories 1](readme_images/user_stories/user-stories-1.png)<br>
 ![User stories 2](readme_images/user_stories/user-stories-2.png)<br>
@@ -67,7 +64,7 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 <br>
 
 ### **The Skeleton Plane**
-#### Wireframes PNG Format
+#### Wireframes
 * Desktop size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/desktop_wireframes_png)<br>
 * Tablet size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/tablet_wireframes_png)<br>
 * Mobile size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/mobile_wireframes_png)<br>

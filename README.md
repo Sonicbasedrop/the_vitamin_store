@@ -1,6 +1,8 @@
 # The Vitamin Store
 
-The Vitamin Store is an online e-commerce vitamin store. This site was developed for my milestone 4 project as part of the Code Institutes - Full Stack Software Development Course.<br>
+* The Vitamin Store is an online e-commerce vitamin store. This site was developed for my milestone 4 project as part of the Code Institutes - Full Stack Software Development Course.<br>.<br>
+
+* This site was built for educational purpose and no deliveries will be fulfilled.<br>
 <br>
 ![Mockup](readme_images/mockup/mockup.png)
 
@@ -50,11 +52,6 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 * To make a full-stack site that uses HTML, CSS, JavaScript, Python + Django.
 * Create a website that uses a relational database.
 * To make a full-stack site based around business logic used to control a centrally-owned database.
-
-* This website was created for for the sole purpose of completing my Milestone 4 Project for the "Code Institute’s" full stack software developer program.
-  The Vitamin Store is a eCommerce site aimed at everyone that wants too or need to maintain they’re health, so we keep it simple. We supply vitamins that are affordable, fun to take, easy to remember to take. The site is designed to be responsive and easy to navigate on a range of devices to make it easily accessible for all users.
-
-* This site was built for educational purpose and no deliveries will be fulfilled. 
 
 ### User stories
 ![User stories 1](readme_images/user_stories/user-stories-1.png)<br>
@@ -112,7 +109,7 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 ##### **Product Details Page**
 * Users are able to:
   * Click the products to find out more information including
-  * Name,  price, SKU, category, Rating
+  * Name,  price, SKU, category, ratings
   * Add products to bag to buy
   * See reviews of products and also review the products if logged in
 
@@ -150,7 +147,7 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 **Header**
 
 * All users can:
-  * Navigate to home, products, bag pages, Contact page, Faq page
+  * Navigate to home, all products, all categories, bag pages, contact page, Faq page
 
 * Users logged in can access:
   * Profile pages, review page
@@ -177,6 +174,7 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 [Back to Table of Content](#table-of-content)
 
 ### **Database Design**<br>
+
 ![](readme_images/database_schema/database_schema.png)
 
 ### **Differences to Design**<br>
@@ -255,6 +253,14 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 ---
 ### Testing<br>
 Due to the scope and size of the testing section, a separate testing file was created. You can find thebtesting file [here](https://github.com/Sonicbasedrop/the_vitamin_store/blob/main/TESTING.md)
+
+### **Deployment**<br>
+
+
+### **Acknowledgements**<br>
+* My Mentor Daisy McGirr for great advice and feedback, and confidence boosting peptalks.
+* My girlfriend for her support and patience.
+* Friends and family for testing the site, and giving me feedback.
 
 
 [Back to Table of Content](#table-of-content)

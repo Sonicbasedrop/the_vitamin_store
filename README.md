@@ -3,7 +3,7 @@
 * The Vitamin Store is an online e-commerce vitamin store. This site was developed for my milestone 4 project as part of the Code Institutes - Full Stack Software Development Course.<br>
 
 * This site was built for educational purpose and no deliveries will be fulfilled.<br>
-<br>
+
 ![Mockup](readme_images/mockup/mockup.png)<br>
 
 Link to [live site](https://the-vitamin-store.herokuapp.com/)

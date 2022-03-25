@@ -115,6 +115,29 @@ To find the values of each key:
 * AWS_SECRET_ACCESS_KEY: From the CSV file that you download having created a User in Amazon AWS S3. [See below for instructions](#amazon-aws).
 * AWS_ACCESS_KEY_ID: From the CSV file that you download having created a User in Amazon AWS S3. [See below for instructions](#amazon-aws).
 
+### How to contribute to the site
+
+1. Navigate to [GitHub](https://github.com/) and log in
+2. Locate my [repo](https://github.com/Sonicbasedrop/the_vitamin_store)
+3. On the right side of the screen click Fork
+4. This creates a copy in your own repository to make changes in [GitPod](https://gitpod.io/)
+5. Once finished with changes add, commit and push to your own [GitHub](https://github.com/)
+6. Click Pull Requests and select "New Pull Request" button.
+
+
+### How to run the project locally
+
+To clone this project from GitHub follow the instructions taken from [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) explained here:
+1. Navigate to the [GitHub Repository](https://github.com/Sonicbasedrop/the_vitamin_store)
+3. To clone using HTTPS click the clipboard symbol under "Clone with HTTPS". To clone using SSH key click Use SSH then click the clipboard symbol. To clone using GitHub CLI select Use GitHub CLI and click the clipboard symbol. 
+4. Open Git Bash
+5. Change the working directory to the location you want the cloned directory to be.
+6. Type 'git clone' and paste the url copied from step 3. 
+7. Press 'enter' to create your clone.
+
+[Back to Table of Content](#Table-of-Content)
+
+
 
 
 

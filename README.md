@@ -251,11 +251,10 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 * [Google](https://www.google.com/)
 * Code Insitutes Course Material
 ---
-### Testing<br>
+### **Testing**<br>
 Due to the scope and size of the testing section, a separate testing file was created. You can find thebtesting file [here](https://github.com/Sonicbasedrop/the_vitamin_store/blob/main/TESTING.md)
 
 ### **Deployment**<br>
-
 
 ### **Acknowledgements**<br>
 * My Mentor Daisy McGirr for great advice and feedback, and confidence boosting peptalks.

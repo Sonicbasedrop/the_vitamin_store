@@ -1,6 +1,6 @@
 # The Vitamin Store - Testing
 
-Back to my main README.md click [here](https://github.com/Sonicbasedrop/the_vitamin_store/blob/main/README.md#The-Scope-Plane)
+Back to my main README.md click [here](https://github.com/Sonicbasedrop/the_vitamin_store/blob/main/README.md#the-vitamin-store)
 <br>
 
 

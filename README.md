@@ -9,7 +9,7 @@
 Link to [live site](https://the-vitamin-store.herokuapp.com/)
 
 
-## **Table of Content**
+## Table of Content
 * [User Experience Design (UX)](#User-Experience-Design)
     * [The Strategy Plane](#The-Strategy-Plane)
         * [User stories](#User-Stories)
@@ -42,7 +42,7 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
   * [Acknowledgements](#Acknowledgements)
 
 ## User Experience Design
-### **The Strategy Plane**
+### The Strategy Plane
 
 #### Project goals<br>
 
@@ -58,13 +58,13 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 
 <br>
 
-### **The Skeleton Plane**
+### The Skeleton Plane
 #### Wireframes
 * Desktop size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/desktop_wireframes_png)<br>
 * Tablet size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/tablet_wireframes_png)<br>
 * Mobile size wireframes can be viewed [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wireframes/mobile_wireframes_png)<br>
 
-### **The Surface Plane**
+### The Surface Plane
 ### Design
 
 #### Planned Colour Scheme
@@ -84,23 +84,23 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 ### Database Design<br>
 
 ![Database Design](readme_images/database_schema/database_schema.png)
-### **The Scope Plane**
+### The Scope Plane
 
-### **Features Implemented:**<br>
-##### **Create Profile**
+### Features Implemented:<br>
+##### Create Profile
 * Users are able to:
   * Create a profile to save their orders and personal information
   * Confirm their details are correct via email verification
   * Store details for faster checkout
   
 
-##### **Log in to Profile**
+##### Log in to Profile
 * Users are able to:
   * Log in to profile to see their orders and personal information
   * Edit personal information if required
   
 
-##### **Products Page**
+##### Products Page
 * Users are able to:
   * Products displayed and searchable to all users.
   * Sort products by A-Z, Name, Category, Price, Rating.
@@ -108,7 +108,7 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
   * See rating of product
   
 
-##### **Product Details Page**
+##### Product Details Page
 * Users are able to:
   * Click the products to find out more information including
   * Name,  price, SKU, category, ratings
@@ -120,13 +120,13 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
   * Delete reviews
   
 
-##### **Products Management**
+##### Products Management
 * If the user is a super user they can:
   * Add a product and image of product
   * Edit a product
   * Delete a Product
 
-##### **Bag**
+##### Bag
 * Users are able to:
   * Adjust number of products in bag if they require
   * Find out delivery costs
@@ -134,7 +134,7 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
   * Clearly see the total of their items by quantity and grand total
   
 
-##### **Checkout**
+##### Checkout
 * Users can:
   * Save time as personal details pulled from profile page if user is logged in
   * Save their delivery information to their profile
@@ -144,9 +144,9 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 * Logged in users can:
   * Add a Review
   
- ##### **Navigation**
+ ##### Navigation
 
-**Header**
+Header
 
 * All users can:
   * Navigate to home, all products, all categories, bag pages, contact page, Faq page
@@ -157,17 +157,23 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 * Users not logged in can:
   * Access log in and register pages
 
-### **Error Pages**
+### Error Pages
 
-#### *404.html*
+#### 400.html
 
- * 404 page created to redirect users back to the main site in case of an error
+ * 400 page created to redirect users back to the main site in case of an bad request error.
 
-#### *403.html*
+
+#### 403.html
 
  * 403 page created to redirect users back to the main site in case they try to access a page they are not authorised to
 
-#### *500.html*
+#### 404.html
+
+ * 404 page created to redirect users back to the main site in case of an error
+
+
+#### 500.html
 
  * 500 error page created to redirect users to the main site after a server error
 
@@ -175,12 +181,13 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 
 [Back to Table of Content](#table-of-content)
 
-### **Differences to Design**<br>
+### Differences to Design<br>
 * Footer was removed, and links that was planned for footer was moved up to the main navigation menu.
   I have added additional wireframes that shows my the changes (index page shows the overall changes -
   and the faq page wireframe is added to show the consolidation of about/privacy page)
 
-## **Technologies Used**
+
+## Technologies Used
 ### Languges<br>
 * [HTML5](https://en.wikipedia.org/wiki/HTML)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
@@ -253,6 +260,13 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 Due to the scope and size of the testing section, a separate testing file was created. You can find thebtesting file [here](https://github.com/Sonicbasedrop/the_vitamin_store/blob/main/TESTING.md)
 
 ### **Deployment**<br>
+
+The Deployment file can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store/blob/main/DEPLOYMENT.md)
+
+## Credits
+### Code
+
+
 
 ### **Acknowledgements**<br>
 * My Mentor Daisy McGirr for great advice and feedback, and confidence boosting peptalks.

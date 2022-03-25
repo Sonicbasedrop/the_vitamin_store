@@ -68,7 +68,8 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 ### Design
 
 #### Planned Colour Scheme
-* The main colours of the site <br> ![Colours](readme_images/colour_scheme/ms4_the_vitamin_store.png)
+* The main colours of the site <br> 
+![Colours](readme_images/colour_scheme/ms4_the_vitamin_store.png)
  
 * The main website text is black.
 #### Typography
@@ -82,7 +83,7 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 
 ### Database Design<br>
 
-* ![Database Design](readme_images/database_schema/database_schema.png)
+![Database Design](readme_images/database_schema/database_schema.png)
 ### **The Scope Plane**
 
 ### **Features Implemented:**<br>
@@ -169,7 +170,7 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 #### *500.html*
 
  * 500 error page created to redirect users to the main site after a server error
-<br>
+
 ![Importance and Difficulty](readme_images/user_stories/dificulty_importance.png)<br>
 
 [Back to Table of Content](#table-of-content)

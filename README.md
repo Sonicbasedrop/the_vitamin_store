@@ -23,7 +23,6 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
             * [Colour Scheme](#Colour-Scheme)
             * [Typography](#Typography)
             * [Imagery](#Imagery)
-            * [Database](#Database)
     * [Differences to Design](#Differences-to-Design)
     * [Features](#Features)
     * [Existing Features](#Existing-Features)
@@ -42,7 +41,6 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
   * [Code](#Code)
   * [Acknowledgements](#Acknowledgements)
 
-  ****
 ## User Experience Design
 ### **The Strategy Plane**
 
@@ -82,6 +80,9 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 
 * The product image used with permission from bulk.com se view [here](https://www.bulk.com/) | view product image [here](https://www.bulk.com/uk/uc-ii-collagen-capsules.html).
 
+### Database Design<br>
+
+* ![Database Design](readme_images/database_schema/database_schema.png)
 ### **The Scope Plane**
 
 ### **Features Implemented:**<br>
@@ -172,10 +173,6 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 ![Importance and Difficulty](readme_images/user_stories/dificulty_importance.png)<br>
 
 [Back to Table of Content](#table-of-content)
-
-### **Database Design**<br>
-
-![](readme_images/database_schema/database_schema.png)
 
 ### **Differences to Design**<br>
 * Footer was removed, and links that was planned for footer was moved up to the main navigation menu.

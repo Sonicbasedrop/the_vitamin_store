@@ -9,11 +9,13 @@
 </div>
 {% endblock %}
 {% block content %}
-<div class="mainbox">
-    <div class="err">4</div>
-    <i class="far fa-question-circle fa-spin"></i>
-    <div class="err2">4</div>
-    <div class="msg">Maybe this page moved? Got deleted? Is hiding out in quarantine? Or never existed in the first
-      place?<p>Let's go <a href="{{ url_for('home') }}" id="err-home">home</a> and try from there.</p>
+<div class="overlay"></div>
+<div class="container-fluid px-3">
+    <div class="row">
+        <div class="col-12 col-sm-6 p-4 my-auto">
+            <h1 class="font-black-bg">404 error page</h1>
+            <p class="font-black-bg">A error has occured, click <a href="{% url 'home' %}">here</a> to go to the home page.</p>
+        </div>
     </div>
+</div>
 {% endblock %}

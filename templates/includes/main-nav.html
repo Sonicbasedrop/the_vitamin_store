@@ -1,10 +1,12 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+         <!-- home -->
         <li class="nav-item d-block d-md-none">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
                 Home
             </a>
         </li>
+         <!-- All products dropdown menu  -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
@@ -16,6 +18,7 @@
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
+          <!-- categories dropdown menu  -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Categories
@@ -32,14 +35,17 @@
             </div>
         </li>
         <li>
+              <!-- contact us page -->
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'contact' %}" id="contact-link" aria-haspopup="true" aria-expanded="false">
                 Contact
             </a>
         </li>
-        <li class="nav-item dropdown">
+        <!-- faq page -->
+        <li class="nav-item">
         <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'faq' %}" id="faq-link" aria-expanded="false">
             FAQ
         </a>
+        <!-- socila media link -->
         <li>
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="http://www.instagram.com/" 
                aria-label="Instagram" target="_blank" aria-expanded="false"><i class="fab fa-instagram"></i>

@@ -17,15 +17,16 @@
             <div class="col-12 col-md-6">
                 <hr>
                 <h2 class="logo-font mb-4">Product Management</h2>
+                 <!-- end page heading -->
+                  <!-- page sub heading -->
                 <h5 class="text-muted">Add a Product</h5>
+                <!-- end page sub heading -->
                 <hr>
             </div>
         </div>
-         <!-- end page heading -->
-
+         <!-- products form -->
         <div class="row">
             <div class="col-12 col-md-6">
-                 <!-- add products form -->
                 <form method="POST" action="{% url 'add_product' %}" class="form mb-2" enctype="multipart/form-data">
                     {% csrf_token %}
                         {% for field in form %}
@@ -35,7 +36,7 @@
                              {{ field }}
                           {% endif %}
                      {% endfor %}
-                      <!-- end add products form -->
+                      <!-- end products form -->
                        <!-- form buttons  -->
                     <div class="text-right">
                         <a class="btn btn-outline-black rounded-0" href="{% url 'products' %}">Cancel</a>

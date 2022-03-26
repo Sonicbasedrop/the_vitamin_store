@@ -23,6 +23,7 @@
             <hr class="w-50 mb-1">
         </div>
     </div>
+    <!-- sorting  -->
     <div class="row">
         <div class="product-container col-10 offset-1">
             <div class="row mt-1 mb-2">
@@ -50,6 +51,8 @@
                         </p>
                     </div>
                 </div>
+                 <!-- end of sorting  -->
+                  <!-- products  -->
              <div class="row">
                 {% for product in products %}
                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
@@ -83,16 +86,19 @@
                                             <small class="text-muted">No Rating</small>
                                         {% endif %}
                                         {% if request.user.is_superuser %}
+                                         <!-- edit and delete links  -->
                                             <small class="ml-3">
                                                 <a href="{% url 'edit_product' product.id %}">Edit</a> | 
                                                 <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                                             </small>
+                                            <!-- end edit and delete links  -->
                                         {% endif %}
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- end of products list  -->
                     {% if forloop.counter|divisibleby:1 %}
                         <div class="col-12 d-sm-none mb-5">
                             <hr>

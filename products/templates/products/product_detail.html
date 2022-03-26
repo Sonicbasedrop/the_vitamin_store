@@ -10,6 +10,7 @@
 {% endblock %}
 
 {% block content %}
+<!-- product info  -->
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
@@ -50,8 +51,9 @@
                     {% endif %}
                     <p class="mt-3">{{ product.description }}</p>
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
+                        <!-- end of product info  -->
                         {% csrf_token %}
-
+                            <!-- quantity selector -->
                             <div class="col-12">
                                 <p class="mt-3"><strong>Quantity:</strong></p>
                                 <div class="form-group w-50">
@@ -63,6 +65,7 @@
                                                     <i class="fas fa-minus"></i>
                                                 </span>
                                             </button>
+                                             <!-- end of quantity selector-->
                                         </div>
                                         <input class="form-control qty_input" type="number"
                                             name="quantity" value="1" min="1" max="99"
@@ -79,7 +82,7 @@
                                     </div>
                                 </div>
                             </div>
-
+                             <!-- go to all product button -->
                             <div class="col{% if s %}-12 mt-2{% endif %}">
                                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
                                     <span class="icon">
@@ -87,14 +90,18 @@
                                     </span>
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
+                                 <!-- end of go to all product button -->
+                                  <!-- leave a review button -->
                                 <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
                                 <a href="{% url 'add_review' product.id %}" class="btn btn-outline-black rounded-0 text-uppercase mt-5"><i
                                     class="fas fa-plus"></i> Leave a Review</a>
+                                    <!-- end leave a review button -->
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
                         
                     </form>
+                    <!-- review section -->
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -141,6 +148,7 @@
                                         {% endfor %}
                                     </div>
                               </div>
+    
                             <!-- Comment Form -->
                         <div class="row pb-5">
                             <div class="col-lg-6 col-md-12 mt-1 pl-0 pb-4">
@@ -157,6 +165,7 @@
                  </div>
             </div>
         </div>
+        <!-- end review section -->
         
 {% endblock %}
 

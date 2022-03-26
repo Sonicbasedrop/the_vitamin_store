@@ -12,16 +12,22 @@
 {% block content %}
 <div class="overlay"></div>
 <div class="container">
+    <!-- page heading-->
     <h2 class="logo-font text-left mb-4 mt-4">Add your Review</h2>
     <div class="row">
         <div class="col-12 col-md-6">
             <hr>
+            <!-- end page heading-->
+            <!-- review page sub heading-->
             <h3 class="text-muted">{{ product.name }}</h3>
             <hr>
+            <!-- end review page sub heading-->
         </div>
     </div>
     <div class="conatiner">
     <div class="row">
+        <!-- review form-->
+          <!-- review form buttons -->
         <div class="col-12 col-md-6">
             <form method="POST" action="{% url 'add_review' product.id %}" class="form mb-2"
                 enctype="multipart/form-data">
@@ -30,9 +36,11 @@
                 <div class="text-right mb-4">
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0">Cancel</a>
                     <button class="btn btn-black rounded-0" type="submit">Post Review</button>
+                    <!-- end review form buttons -->
                 </div>
             </form>
         </div>
+          <!-- end review form-->
         
         <div class="card-fixed col-12 col-md-6 col-lg-4 offset-lg-2">
             <div class="card h-100 border-0">

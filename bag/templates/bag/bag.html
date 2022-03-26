@@ -3,16 +3,19 @@
 {% load bag_tools %}
 
 {% block page_header %}
+         <!-- page header -->
     <div class="container header-container">
         <div class="row">
             <div class="col"></div>
         </div>
     </div>
+        <!-- end of page header -->
 {% endblock %}
 
 {% block content %}
     <div class="overlay"></div>
     <div class="container mb-2">
+         <!-- heading  -->
         <div class="row">
             <div class="col">
                 <hr>
@@ -20,10 +23,11 @@
                 <hr>
             </div>
         </div>
-
+        <!-- end of heading  -->
         <div class="row">
             <div class="col">
                 {% if bag_items %}
+               
                     <div class="d-block d-md-none">
                         <div class="row">
                             <div class="col">
@@ -73,7 +77,9 @@
                             </thead>
 
                             {% for item in bag_items %}
+
                                 <tr>
+                                    <!-- product image,name, price, sku -->
                                     <td class="p-3 w-25">
                                         {% include "bag/product-image.html" %}
                                     </td>
@@ -90,6 +96,7 @@
                                         <p class="my-0">€{{ item.product.price | calc_subtotal:item.quantity }}</p>
                                     </td>
                                 </tr>
+                                 <!-- end product image,name, price, sku -->
                             {% endfor %}
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
@@ -104,6 +111,7 @@
                         </table>
                     </div>
                 {% else %}
+                  <!-- back to products  -->
                     <p class="lead mb-5">Your bag is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
@@ -111,6 +119,7 @@
                         </span>
                         <span class="text-uppercase">Keep Shopping</span>
                     </a>
+                     <!-- end back to products  -->
                 {% endif %}
             </div>
         </div>

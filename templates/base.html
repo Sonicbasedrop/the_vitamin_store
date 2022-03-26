@@ -6,29 +6,32 @@
 
     
     {% block meta %}
-        <!-- Required meta tags -->
+        <!-- required meta tags -->
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
     {% endblock %}
+     <!-- end required meta tags -->
 
     {% block extra_meta %}
     {% endblock %}
 
         
     {% block corecss %}
-         <!-- Bootstarp CSS -->
+         <!-- bootstarp CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
-         <!-- import favicon-->
+         <!-- end bootstarp CSS -->
+         <!-- favicon-->
          <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-touch-icon.png' %}">
          <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}">
          <link rel="icon" type="image/png" sizes="16x16" href="%{ static 'favicon/favicon-16x16.png' %}">
          <link rel="manifest" href="{% static 'favicon/site.webmanifest' %}">
     {% endblock %}
+    <!-- end favicon-->
        
 
     {% block extra_css %}
@@ -38,12 +41,15 @@
      {% block corejs %}
         <!-- Fontawsome kit -->
         <script src="https://kit.fontawesome.com/ec3f09227b.js" crossorigin="anonymous"></script>
+        <!-- Fontawsome kit -->
         <!-- JQuery, Popper.js, Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <!-- Stripe -->
+         <!-- end JQuery, Popper.js, Bootstrap JS -->
+        <!-- stripe -->
         <script src="https://js.stripe.com/v3/"></script>
+         <!-- Stripe -->
     {% endblock %}
 
     {% block extra_js %}
@@ -52,7 +58,7 @@
     <title>The Vitamin Store {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
-    <!-- Logo -->
+    <!-- logo -->
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -60,7 +66,8 @@
                     <h2 class="logo-font text-black my-0"><strong>The Vitamin</strong> Store</h2>
                 </a>
             </div>
-            <!-- Search input field -->
+             <!-- end logo -->
+            <!-- search input field -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
@@ -75,7 +82,8 @@
                     </div>
                 </form>
             </div>
-           <!-- Account drop down menu -->
+             <!-- end search input field -->
+           <!-- account drop down menu -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
@@ -96,9 +104,10 @@
                                 <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
                                 <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                             {% endif %}
+                            <!-- end account drop down menu -->
                         </div>
                     </li>
-                    <!-- Shopping Bag -->
+                    <!-- shopping bag -->
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
                             <div class="text-center">
@@ -111,9 +120,11 @@
                                     {% endif %}
                                 </p>
                             </div>
+                           
                         </a>
                     </li>
                 </ul>
+                 <!-- end shopping bag -->
          </div>
          <div class="col-12 col-lg-4 my-auto py-1 py-lg-0"></div>
         </div>
@@ -126,11 +137,12 @@
                {% include 'includes/main-nav.html' %}
            </nav>
        </div>
-       <!-- Banner -->
+       <!-- banner -->
        <div id="delivery-banner" class="row text-center">
            <div class="col bg-black text-white">
                <h4 class="logo-font my-1">Free delivery on orders over €{{ free_delivery_threshold }}!</h4>                
-           </div>            
+           </div> 
+            <!-- end banner -->           
        </div>
     </header>
     {% if messages %}

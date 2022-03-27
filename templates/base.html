@@ -10,11 +10,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
     {% endblock %}
      <!-- end required meta tags -->
-
     {% block extra_meta %}
     {% endblock %}
-
-        
     {% block corecss %}
          <!-- bootstarp CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -30,12 +27,8 @@
          <link rel="manifest" href="{% static 'favicon/site.webmanifest' %}">
     {% endblock %}
     <!-- end favicon-->
-       
-
     {% block extra_css %}
     {% endblock %}
-
-        
      {% block corejs %}
         <!-- Fontawsome kit -->
         <script src="https://kit.fontawesome.com/ec3f09227b.js" crossorigin="anonymous"></script>
@@ -49,13 +42,11 @@
         <script src="https://js.stripe.com/v3/"></script>
          <!-- Stripe -->
     {% endblock %}
-
     {% block extra_js %}
     {% endblock %}
-    
     <title>The Vitamin Store {% block extra_title %}{% endblock %}</title>
-  </head>
-  <body>
+</head>
+<body>
     <!-- logo -->
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
@@ -177,4 +168,5 @@
     {% endblock %}
 
  </body>
+ 
 </html>

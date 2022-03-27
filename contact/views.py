@@ -9,7 +9,9 @@ from .forms import ContactForm
 
 
 def contact(request):
-
+    """
+    A view that renders contact page
+    """
     cust_email = request.POST.get('contact_email')
 
     if request.method == 'POST':

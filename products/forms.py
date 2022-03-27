@@ -4,12 +4,19 @@ from .models import Product, Category
 
 
 class ProductForm(forms.ModelForm):
+    """
+    A class for product form
+    """
 
     class Meta:
+        """
+        A class for Meta information
+        """
         model = Product
         fields = '__all__'
 
-    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
+    image = forms.ImageField(label='Image', required=False,
+                             widget=CustomClearableFileInput)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

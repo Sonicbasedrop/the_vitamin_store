@@ -2,7 +2,7 @@
     <ul class="navbar-nav w-auto mx-auto">
          <!-- home -->
         <li class="nav-item d-block d-md-none">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}"  aria-label="logo home link" id="home-link">
                 Home
             </a>
         </li>
@@ -20,7 +20,7 @@
         </li>
           <!-- all categories dropdown menu  -->
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}" id="products-categories-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}"  id="products-categories-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Categories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">  
@@ -36,13 +36,13 @@
         </li>
         <li class="nav-item">
               <!-- contact us page -->
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'contact' %}" id="contact-link" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'contact' %}"  aria-label="contact link" id="contact-link" aria-haspopup="true" aria-expanded="false">
                 Contact
             </a>
         </li>
         <!-- faq page -->
         <li class="nav-item">
-        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'faq' %}" id="faq-link" aria-expanded="false">
+        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'faq' %}"  aria-label="faq link" id="faq-link" aria-expanded="false">
             FAQ
         </a>
         <!-- socila media link -->

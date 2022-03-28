@@ -51,7 +51,7 @@
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a href="{% url 'home' %}" class="nav-link main-logo-link">
+                <a href="{% url 'home' %}" aria-label=" logo home link"class="nav-link main-logo-link">
                     <h2 class="logo-font text-black my-0"><strong>The Vitamin</strong> Store</h2>
                 </a>
             </div>
@@ -87,14 +87,14 @@
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
-                                    <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                                    <a href="{% url 'add_product' %}" aria-label="add new product" class="dropdown-item">Product Management</a>
                                 {% endif %}
-                                <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                                <a href="{% url 'profile' %}" aria-label="link to profile page" class="dropdown-item">My Profile</a>
                                 <!-- These account urls come from allauth  -->
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                                <a href="{% url 'account_logout' %}" aria-label="logout link" class="dropdown-item">Logout</a>
                             {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                                <a href="{% url 'account_signup' %}"  aria-label="register for account link" class="dropdown-item">Register</a>
+                                <a href="{% url 'account_login' %}"  aria-label="login link" class="dropdown-item">Login</a>
                             {% endif %}
                             <!-- end account drop down menu -->
                         </div>

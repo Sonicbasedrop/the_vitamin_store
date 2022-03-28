@@ -4,26 +4,23 @@ Back to my main README.md click [here](https://github.com/Sonicbasedrop/the_vita
 <br>
 
 
-**Table of Contents** 
-1. [User Stories Testing](User-Stories-Testing)  
-   - [Unregistered Users' Goals](Unregistered-Users-Goals)   
-   - [Registered Users' Goals](Registered-Users-Goals)  
-   - [Site Owners Goals](Site-Owners-Goals)    
-2. [Manual Testing](Manual-Testing)
-   - [Issues and Resolutions](Issues-and-Resolutions)
-   - [Bugs](Bugs)
-     - [Bugs fixed](Bugs-fixed)   
-     - [Known Bugs](Known-Bugs)
-   - [Crud Functinality](Crud-Functionality)  
-   - [Browser Compatibility](Browser-Compatibility)   
-   - [Devices](Devices)   
-   - [Responsiveness](Responsiveness)   
-   - [Links](Links)  
-   - [Forms](Forms)   
-   - [Defensive Testing](Defensive-Testing)  
-4. [W3C Validator Testing](W3C-Validator-Testing)  
-   - [HTML](HTML)   
-   - [CSS](CSS)  
-5. [JSHint Testing](JSHint-Testing)    
-6. [Pep8 Testing](Pep8-Testing)
-7. [Lighthouse Testing](Lighthouse-Testing)  
+## Table of Content
+# Testing
+* [Validator Testing](#validator-testing)
+* [Lighthouse Testing](#lighthouse-testing)
+* [Testing From User Stories](#testing-from-user-stories)
+* [Manually Testing Functionality](#manually-testing-functionality)
+* [Responsive Testing](#responsive-testing)
+* [Bugs and Fixes](#bugs-and-fixes)<br>
+---
+
+### Validator Testing
+The website's was tested with following validators:
+
+### HTML Markup Validation Service
+* I used [Html Checker](https://validator.w3.org/) to validate the html files.
+The files can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/html_validation)
+
+### CSS Validation Service
+* I used [CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the css files.
+The files can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/css_validation)

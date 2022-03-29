@@ -241,6 +241,8 @@ Header
     * Web Accessibility Evaluation Tool.  
 * [balsamiq Wireframes](https://balsamiq.com/wireframes/)
 	* This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+* [JSONLint](https://jsonlint.com/)
+  * JSONLint is a validator and reformatter for JSON.
 ---
 ### General Rscources Used<br>
 * [DigitalOcean](https://www.digitalocean.com/)

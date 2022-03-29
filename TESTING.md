@@ -92,7 +92,7 @@ The files for the mobile test can be found [here](https://github.com/Sonicbasedr
 
 
 #### Home Page
-
+    * Home
 
 | Feature        | Expected           | Testing  | Result | Pass/Fail |
 | ------------- |-------------| -----|  ---------- |:----:|
@@ -101,14 +101,47 @@ The files for the mobile test can be found [here](https://github.com/Sonicbasedr
 
 
 
+#### Register Page
+    * Register
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :-----:|
+| Register functionality | Form validation for email requires "@" symbol |  Attempt to register without "@" in input field | Form validation requests valid email address | Pass |
+| | E-mail Again value must be same as Email value | Attempt to register with incorrect email in email again input field | Form validation requests email address must match | Pass |
+| | Username must be between 4 and 15 characters | Attempt to enter username with less than 4 characters | Feedback error displayed | Pass |
+| | Username must be between 4 and 15 characters | Attempt to enter username with more than 15 characters | Form restricts the user from using more than 15 characters | Pass |
+| | Password must be longer than 8 characters | Attempt to enter password with less than 8 characters | Form restricts the user from using less than 8 characters | Pass |
+| | Register with new user and password to be logged in and redirected the index page | Enter email address, name, username, password and click register | New account registered and profile page shown | Pass |
 
 
+#### Log In Page
+    * Log in
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-----------------| ----------|  ---------- | :----: |
+| Log in functionality | Correct user/pass combination directs user to the index page | Log in with correct username/password combination | Redirected to user to index page| Pass |
+|   | Incorrect username/password combination shows error message | Attempt to log in with incorrect credentials | "The username and/or password you specified are not correct." error message appears| Pass |
+| Link to Register | Redirect to Register page | Click link to register | Redirected to Register page | Pass |
 
 
+#### Profile Page
+     * Profile
 
-
-
-
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| Personal Information | Personal information is visible if previously saved | Navigate to Profile page, view personal information | The personal information is visible in Personal Information section | Pass |
+| | Personal information can be updated | Navigate to Profile page, change personal information, click update information. | The personal information is updated with the new details. | Pass |
+| Order History | Order History is visible if order placed while logged in | Navigate to Profile page, view Order History Section | The Order History is visible | Pass |
+| | Order information can be accessed by clicking order number | Navigate to Profile page, view Order History Section, click Order Number | Order Information is visible | Pass |
 
 
 [Back to Table of Content](#table-of-content)
+
+
+
+
+
+
+
+
+

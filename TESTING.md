@@ -8,10 +8,9 @@ Back to my main README.md click [here](https://github.com/Sonicbasedrop/the_vita
 # Testing
 * [Validator Testing](#validator-testing)
 * [Lighthouse Testing](#lighthouse-testing)
-* [Testing From User Stories](#testing-from-user-stories)
+* [Testing User Stories](#testing-user-stories)
 * [Manually Testing Functionality](#manually-testing-functionality)
 * [Responsive Testing](#responsive-testing)
-* [Bugs and Fixes](#bugs-and-fixes)<br>
 ---
 
 ### Validator Testing
@@ -46,7 +45,10 @@ The files can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store
 #### Reviews App
 * Can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/reviews_app_pep8_results)<br>
 
-### Lighthouse Testing
+#### Manage.py
+* Can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/manage_py_pep8_results)<br>
+
+#### Lighthouse Testing
 *  I used [Lighthouse in Crome Dev Tools](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
 The files for the desktop test can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/lighthouse_desktop)<br>
 The files for the mobile test can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/lighthouse_mobile)<br>
@@ -216,7 +218,7 @@ The files for the mobile test can be found [here](https://github.com/Sonicbasedr
 
 * [Back to contents](#contents)
 
-### Manually Testing Functionality
+#### Manually Testing Functionality
     * MTF
 
 | User Story ID  | As a/an  | I want to be able to...  | So that I can... |  Pass/Fail |
@@ -253,21 +255,27 @@ The files for the mobile test can be found [here](https://github.com/Sonicbasedr
 | 25|Store Owner/admin	|Edit/update a product	|Change product prices, descriptions, images, and other product criteria| pass|
 | 26|Store Owner/admin   | Delete a product | Remove items that are no longer for sale| pass|
 
+#### User Stories Images
+* Can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/testing_user_stories)<br>
 
-# Responsive Testing
-### Phone:
+#### Wave Testing Results
+* Can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/wave_testing_results)<br>
+
+
+#### Responsive Testing
+#### Phone:
 *  Samsung Galaxy S9
 *  Iphone 8
 *  I5hone 5
   
-### Tablet:
+#### Tablet:
 * iPad Air
 
-### Computer:
+#### Computer:
 * Dell 27" Monitor
 * Macbook  Air 13"
 
-### Browsers:
+#### Browsers:
 * Google Crome
 * Safari
 * Opera

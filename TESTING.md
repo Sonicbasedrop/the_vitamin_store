@@ -52,7 +52,7 @@ The files for the desktop test can be found [here](https://github.com/Sonicbased
 The files for the mobile test can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store/tree/main/readme_images/lighthouse_mobile)<br>
 ---
 
-[Back to Table of Content](#table-of-content)
+* [Back to Table of Content](#table-of-content)
 
 ### Testing User Stories
 
@@ -135,7 +135,7 @@ The files for the mobile test can be found [here](https://github.com/Sonicbasedr
 | | Order information can be accessed by clicking order number | Navigate to Profile page, view Order History Section, click Order Number | Order Information is visible | Pass |
 
 
-[Back to Table of Content](#table-of-content)
+* [Back to Table of Content](#table-of-content)
 
 
 #### Products Pages
@@ -176,6 +176,87 @@ The files for the mobile test can be found [here](https://github.com/Sonicbasedr
 | ------------- |-------------| -----|  ---------- | :----:|
 | Edit Products | Only admin/site owner edit a product  | Log in as non-superuser and attempt to access /products//edit/ | Redirect to home page, error message displayed "Sorry, only store owners can do that." | Pass |
 | Form Validation | Required fields must be completed to edit the product  | Attempt to edit product without filling in a required field | Error message "Please fill in this field" | Pass |
+
+#### Shopping Bag
+    * Shopping Bag
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| View Items | Correct products are in the bag | Add product to bag and check quantity and total are in the bag | Expected products are in the bag | Pass |
+| Update Items | Update the number of a product in the bag and it will reflect in bag and price | Change number of product in bag and check quantity and total has updated | Total and quantity updated | Pass |
+| Remove Items | Click remove item for item to be removed from the bag | Click remove beside relevant product | Item removed from bag and notification to confirm this "Removed item from your bag" | Pass |
+
+#### Checkout
+    * Checkout
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| View Items | Correct products are in the checkout | Add products to bag, click Secure Checkout | Expected products are in the checkout product list | Pass |
+| Form Validation | Required fields must be completed to complete  | Attempt to check out without filling in a required field | Error message "Please fill in this field" | Pass |
+
+
+#### Reviews
+    * Review
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | ---- |
+| All reviews visible | Review section on product detail page show all reviews for the specific product | Open produt detail page and view reviews | Reviews visible | Pass |
+| Add review | Only logged in users are allowed to add a review | Log out and attempt to add a review | User will se "Create an account or login to leave a review". | Pass |
+
+
+##### Contact
+    * Contact
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| Contact site owner/admin | Abilaty to query site owner/admin about anything  | Send message via contact form | meaasge sent and recived by site owner/admin| Pass |
+
+
+
+
+* [Back to contents](#contents)
+
+### Manually Testing Functionality
+    * MTF
+
+| User Story ID  | As a/an  | I want to be able to...  | So that I can... |  Pass/Fail |
+|-------------------|-------------------|-----------------|---------------|---------------|
+|Viewing products and Navigation	|
+| 1	|Shopper	|View a list of products|	Select some to purchase| pass|
+| 3	|Shopper	|Easily find a product|Leave product reviews| pass|
+| 2	|Shopper	|View indivudal product details|Identify the price, description, product rating, product image and available sizes|pass|
+|4	|Shopper	|Easily view the total of my purchases at any time|	Take advantage of special saving on products I'd like to purchase| pass|
+| 5	|Shopper	|Easily find contact page|	Contact site owner/admin|  pass|
+|Registration and User Accounts|	
+| 6	|Site User	|Easily register for an account	|Have a personal account and be able to view my profile| pass|
+| 7	|Site User	|Easily login or logout|Access my personal account information| pass |
+| 8	|Site User	|Easily recover my passowrd in case I forget it| Recover access to my account| pass|
+| 9	|Site User	|Receive an email confirmation after registering| Verify that my account registration was successful| pass|
+|10	|Site User	|Have a personalized user profile|	View my personal order history and order confirmations, save my payment information view my order history, and update my profile | pass|
+|Sorting and Searching|	
+| 11|Shopper	|Sort the list of available products|Easily identify the best rated, best priced and categorically sorted products| pass|
+| 12|Shopper	|Sort a speific category of product	|Find the best-priced or best-rated product in a specific category, or sort the products in that category by name| pass|
+| 13|Shopper	|Sort multiple categories of products simultaneously|Find the best-priced or best-rated products across broad categories, such as "vitamin-C" or "Vegan Vitamins"| pass|
+| 14|Shopper	|Search for a product by name or description|Find a specific product I'd like to purchase| pass|
+| 15|Shopper	|Easily see what I've serached for and the number of results|Quickly decide whether the product I want is available| pass|
+|Purchasing and Checkout|	
+| 16|Shopper	|Easily select the quantity of a product when purchasing it|Ensure I don't accidently select the wrong product, quantity| pass|
+| 17|Shopper	|View items in my bag to be purchased| Identify the total cost of my purchase and all items I will receive| pass|
+| 18|Shopper	|Adjust the quantity of individual items in my bag|	Easily make changes to my purchase before checkout| pass|
+| 19|Shopper	|Easily enter my payment information|Check out quickly and with no hassle| pass|
+| 20|Shopper	|Feel that my personal and payment information is safe and secure|	Confidently provide the needed information to make a purchase| pass|
+| 21|Shopper	|View an order confirmation and checkout|	Verify that I haven't made any mistakes| pass|
+| 22|Shopper	|Receive an email confirmation after checking out|	Keep the confirmation of what I have purchased for my records| pass|
+| 23|Shopper	|View all products as a non-registered user| Purchase products without being registered| pass|
+|	|Admin and Store Management	
+| 24|Store Owner/admin	|Add a product	|Add new items to my store| pass|
+| 25|Store Owner/admin	|Edit/update a product	|Change product prices, descriptions, images, and other product criteria| pass|
+| 26|Store Owner/admin   | Delete a product | Remove items that are no longer for sale| pass|
+
+* [Back to Table of Content](#table-of-content)
+
+
+
 
 
 

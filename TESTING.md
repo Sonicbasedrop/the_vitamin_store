@@ -253,6 +253,29 @@ The files for the mobile test can be found [here](https://github.com/Sonicbasedr
 | 25|Store Owner/admin	|Edit/update a product	|Change product prices, descriptions, images, and other product criteria| pass|
 | 26|Store Owner/admin   | Delete a product | Remove items that are no longer for sale| pass|
 
+
+# Responsive Testing
+### Phone:
+*  Samsung Galaxy S9
+*  Iphone 8
+*  I5hone 5
+  
+### Tablet:
+* iPad Air
+
+### Computer:
+* Dell 27" Monitor
+* Macbook  Air 13"
+
+### Browsers:
+* Google Crome
+* Safari
+* Opera
+* Firefox
+
+All testing was Passed.
+
+
 * [Back to Table of Content](#table-of-content)
 
 

@@ -138,6 +138,46 @@ The files for the mobile test can be found [here](https://github.com/Sonicbasedr
 [Back to Table of Content](#table-of-content)
 
 
+#### Products Pages
+
+##### Products
+    * Products
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| All products visible | Products page shows all products | Open Products page and view products | All products visible | Pass |
+|  | Searching by category shows products from that category | Select to search by each category | Products from each category successfully displayed | Pass |
+
+
+##### Product Details
+    * Product Details
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| Product Details | Product description displayed for individual product | Open Product Detail page and view products | Product details visible | Pass |
+| Add to bag | Clicking Add To Bag adds the product to the bag | Open Product Detail page click add to bag | Product available in bag | Pass |
+| Reviews | Reviews for individual products available | Navigate to product review section | Reviews visible  | Pass |
+| Reviews | Add a review form adds review to product details page | While logged in navigate to product review section, fill out form, click add review | Review visible in reviews section | Pass |
+|  | User must be logged in to add review to product details page | While not logged in navigate to product review section, attempt to leave review | Message revealed "Please log in to add a review of a product." | Pass |
+
+
+##### Add Product
+    * Add Product
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| Add Products | Only admin/site owner is allowed to visit add product page | Log in as non-superuser and attempt to access /products/add/ | Redirect to home page, error message displayed "Sorry, only store owners can do that." | Pass |
+| Form Validation | Required fields must be completed to add the product  | Attempt to add product without filling in a required field | Error message "Please fill in this field" | Pass |
+
+
+##### Edit Product
+    * Edit Product
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| Edit Products | Only admin/site owner edit a product  | Log in as non-superuser and attempt to access /products//edit/ | Redirect to home page, error message displayed "Sorry, only store owners can do that." | Pass |
+| Form Validation | Required fields must be completed to edit the product  | Attempt to edit product without filling in a required field | Error message "Please fill in this field" | Pass |
+
+
 
 
 

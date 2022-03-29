@@ -17,27 +17,17 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
     * [The Skeleton Plane](#The-Skeleton-Plane)
         * [Wireframes](#Wireframes)
         * [Database Design](#Database-Design)
-        * [Security](#Security)
     * [The Surface Plane](#The-Surface-Plane)
         * [Design](#Design)
             * [Colour Scheme](#Colour-Scheme)
             * [Typography](#Typography)
             * [Imagery](#Imagery)
     * [Differences to Design](#Differences-to-Design)
-    * [Features](#Features)
+    * [Features Implemented](#Features-Implemented)
     * [Existing Features](#Existing-Features)
-    * [Future Features](#Features-Left-to-Implement)
-* [Technologies](#Technologies)
+* [Technologies Used](#Technologies-Used)
 * [Testing](#Testing)
-    * [Test Strategy](#Test-Strategy)
-    * [Test Results](#Test-Results)
-    * [Isses and Resolutions](#Issues-and-Resolutions-to-issues-found-during-testing)
 * [Deployment](#Deployment)
-    * [Project Creation](#Project-Creation)
-    * [GitHub Pages](#Deployment-To-Heroku)
-    * [The Vitamin Store](#The-Vitamin-Store)
-    * [Fork Project](#Fork-Project)
-* [Credits](#Credits)
   * [Code](#Code)
   * [Acknowledgements](#Acknowledgements)
 
@@ -81,12 +71,12 @@ Link to [live site](https://the-vitamin-store.herokuapp.com/)
 
 * The product image used with permission from bulk.com se view [here](https://www.bulk.com/) | view product image [here](https://www.bulk.com/uk/uc-ii-collagen-capsules.html).
 
-### Database Design<br>
+### Database Design
 
 ![Database Design](readme_images/database_schema/database_schema.png)
 ### The Scope Plane
 
-### Features Implemented:<br>
+### Features Implemented
 ##### Create Profile
 * Users are able to:
   * Create a profile to save their orders and personal information
@@ -181,7 +171,7 @@ Header
 
 [Back to Table of Content](#table-of-content)
 
-### Differences to Design<br>
+### Differences to Design
 * Footer was removed, and links that was planned for footer was moved up to the main navigation menu.
   I have added additional wireframes that shows my the changes (index page shows the overall changes -
   and the faq page wireframe is added to show the consolidation of about/privacy page)
@@ -256,16 +246,14 @@ Header
 * [Google](https://www.google.com/)
 * Code Insitutes Course Material
 ---
-### **Testing**<br>
+### Testing
 Due to the scope and size of the testing section, a separate testing file was created. You can find thebtesting file [here](https://github.com/Sonicbasedrop/the_vitamin_store/blob/main/TESTING.md)
 
-### **Deployment**<br>
+### Deployment
 
 The Deployment file can be found [here](https://github.com/Sonicbasedrop/the_vitamin_store/blob/main/DEPLOYMENT.md)
-
-## Credits
 ### Code
-
+* A large portion of the Django, Python and JavaScript code was developed following the Boutique Ado walkthrough mini project.
 
 
 ### **Acknowledgements**<br>

@@ -176,6 +176,10 @@ Header
   I have added additional wireframes that shows my the changes (index page shows the overall changes -
   and the faq page wireframe is added to show the consolidation of about/privacy page)
 
+* Due to time constraints i did not re-design all of the wireframe.
+  I did howerver re-designed the faq and home page wireframes for Desktop, Tablet and mobile devices.
+     
+
 
 ## Technologies Used
 ### Languges<br>
